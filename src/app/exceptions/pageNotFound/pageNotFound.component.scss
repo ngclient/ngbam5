@@ -1,0 +1,18 @@
+.pageNotFound {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    background-size: 100%;
+    .pageNotFound-content {
+        position: absolute;
+        width: 550px;
+        text-align: center;
+        left: 50%;
+        margin-left: -275px;
+        top: 50%;
+        margin-top: -230px;
+    }
+}

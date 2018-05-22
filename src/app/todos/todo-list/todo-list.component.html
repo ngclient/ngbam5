@@ -1,0 +1,17 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    <mat-list>
+      <h3 mat-subheader>Notes</h3>
+      <mat-divider></mat-divider>
+      <mat-selection-list #shoes (selectionChange)="onSelectItem($event)">
+        <mat-list-option *ngFor="let note of notes">
+          {{note.name}}
+        </mat-list-option>
+      </mat-selection-list>
+
+    </mat-list>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <label>{{ itemsSelected }}</label>
+  </mat-grid-tile>
+</mat-grid-list>
