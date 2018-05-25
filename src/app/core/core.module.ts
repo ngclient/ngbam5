@@ -6,29 +6,32 @@ import {
   MatCheckboxModule,
   MatIconModule,
   MatFormFieldModule,
-  MatTableDataSource,
+  MatTabsModule,
   MatToolbarModule,
   MatGridListModule,
   MatCardModule,
   MatSidenavModule,
   MatMenuModule,
   MatTableModule,
-  MatListModule
+  MatListModule,
+  MatInputModule,
 } from '@angular/material';
 
 
 export const MAT_MODULES = [
   MatButtonModule,
   MatCheckboxModule,
-  MatSidenavModule,
-  MatMenuModule,
   MatIconModule,
-  MatTableModule,
-  MatListModule,
+  MatFormFieldModule,
+  MatTabsModule,
   MatToolbarModule,
   MatGridListModule,
   MatCardModule,
-  MatFormFieldModule
+  MatSidenavModule,
+  MatMenuModule,
+  MatTableModule,
+  MatListModule,
+  MatInputModule
 ];
 
 @NgModule({
