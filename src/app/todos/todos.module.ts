@@ -8,11 +8,13 @@ import { SharedModule } from '../shared/shared.module';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoItemComponent } from './todo-item/todo-item.component';
 import { FormsModule } from '@angular/forms';
+import { DialogComponent } from './dialog/dialog.component';
 
 export const COMPONENTS_TODO = [
   TodosComponent,
   TodoListComponent,
-  TodoItemComponent
+  TodoItemComponent,
+  DialogComponent
 ];
 
 @NgModule({
